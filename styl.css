@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pageFive{
+    background-color: rgb(233, 228, 228);
+    height: 100vh;
+}
+
+.blog h1{
+    text-align: center;
+    color: rgb(29, 66, 29);
+    font-size: 3em;
+    padding-top: 40px;
+}
+
+.blog p{
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+    margin-top: 20px;
+    
+}
+
+
+.container5{
+    /* background-color: whitesmoke; */
+    margin-top: 25px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 250px 250px 250px 250px ;
+    grid-template-rows: 250px 250px 250px 250px ;
+    /* justify-content: space-around; */
+    gap: 40px;
+    justify-content:center;
+    /* margin-right: 50px; */
+}
+
+.box5{
+    background-color: whitesmoke;
+    height: 310px;
+    width: 270px;
+    border-radius: 30px;
+}
+
+.box5 img{
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 32%;
+}
+
+.box5 h3{
+    color: rgb(29, 66, 29);
+    text-align: left;
+    font-size: 1.1em;
+    padding-top: 10px;
+    padding-left: 60px;
+
+}
+
+.box5 p{
+    color: grey;
+    text-align: left;
+    font-size: small;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+/* .box5 button{
+    text-align: left;
+    color: rgb(29, 66, 29);
+    border: none;
+    background-color: transparent;
+}
+
+.box5 hr{
+     width: 67px;
+    color: rgb(29, 66, 29);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+     border-bottom: 1px solid rgb(29, 66, 29); 
+    
+} */
+
+@media(max-width:392px){
+    
+    .pageFive{
+        display: block;
+        height: 1600px;
+       
+    }
+    .blog h1{
+        font-size: 4em;
+    }
+    .blog p{
+        color: black;
+        font-size: 17px;
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+    .container5{
+        display: block;
+    }
+    .box5{
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .box5 p{
+        margin-top:20px;
+ }
+
+}
+
+/* @media(max-width:890px){
+    .pageFive{
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+
+} */
+
