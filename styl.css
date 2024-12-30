@@ -217,3 +217,38 @@ ul{
     gap: 40px;
 }
 
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 30px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.boxOne{
+    background-color: rgb(23, 46, 46);
+    width: 200px;
+    height: 150px;
+    padding-top: 100px;
+    
+}
+
+.boxTwo{
+    background-color: rgb(23, 46, 46);
+    width: 200px;
+    height: 150px;
+    padding-top: 100px;
+
+}
+
+.boxThree{
+    background-color: rgb(23, 46, 46);
+    width: 200px;
+    height: 150px;
+    padding-top: 100px;
+}
