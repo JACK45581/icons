@@ -178,3 +178,28 @@ footer{
     text-align: center;
 }
 
+.bage{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    background-color: indigo;
+}
+
+.main p{
+    margin-top: 200px;
+    width: 400px;
+    font-size: 20px;
+    color: white;
+}
+
+.bage img{
+    width: 400px;
+}
+
+.main button{
+    padding: 5px 20px;
+    margin-top: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
